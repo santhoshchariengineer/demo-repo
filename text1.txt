@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart | Grocery App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="location">
+            <span>📍 Delivering to <b>Home</b></span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for fruits, milk, bread...">
+        </div>
+    </header>
+
+    <section class="categories">
+        <h3>Categories</h3>
+        <div class="category-list">
+            <div class="cat-item">🍎<br>Fruits</div>
+            <div class="cat-item">🥦<br>Veggie</div>
+            <div class="cat-item">🥛<br>Dairy</div>
+            <div class="cat-item">🍞<br>Bakery</div>
+            <div class="cat-item">🥩<br>Meat</div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h3>Popular Items</h3>
+        <div class="grid">
+            <div class="card">
+                <div class="image-placeholder">🍎</div>
+                <h4>Organic Apples</h4>
+                <p>$3.99 / kg</p>
+                <button class="add-btn">+</button>
+            </div>
+            <div class="card">
+                <div class="image-placeholder">🥛</div>
+                <h4>Whole Milk</h4>
+                <p>$2.50 / L</p>
+                <button class="add-btn">+</button>
+            </div>
+            <div class="card">
+                <div class="image-placeholder">🥑</div>
+                <h4>Avocado</h4>
+                <p>$1.20 / pc</p>
+                <button class="add-btn">+</button>
+            </div>
+        </div>
+    </section>
+
+    <nav class="bottom-nav">
+        <div class="nav-item">🏠<br>Home</div>
+        <div class="nav-item">🔍<br>Explore</div>
+        <div class="nav-item cart-icon">🛒<br>Cart <span class="count">0</span></div>
+        <div class="nav-item">👤<br>Account</div>
+    </nav>
+
+</body>
+</html>
